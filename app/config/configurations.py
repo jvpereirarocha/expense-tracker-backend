@@ -5,6 +5,7 @@ class Config:
 
 class DevelopmentConfig(Config):
     DEBUG = True
+    PORT = 5050
 
 class TestingConfig(Config):
     TESTING = True
